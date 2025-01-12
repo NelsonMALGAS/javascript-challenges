@@ -1,0 +1,80 @@
+/* Global Button Styles */
+button {
+    background-color: #007BFF; /* Primary color */
+    color: #FFFFFF; /* Text color */
+    border: none; /* Remove default borders */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for a comfortable size */
+    font-size: 16px; /* Font size for readability */
+    font-weight: bold; /* Emphasize text */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover State */
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button */
+  }
+  
+  /* Focus State */
+  button:focus {
+    outline: 2px solid #80bdff; /* Visible focus outline for accessibility */
+    outline-offset: 2px;
+  }
+  
+  /* Active State */
+  button:active {
+    background-color: #004085; /* Even darker shade when pressed */
+    transform: scale(0.95); /* Slightly shrink button */
+  }
+  
+  /* Disabled State */
+  button:disabled {
+    background-color: #6c757d; /* Gray color for disabled buttons */
+    cursor: not-allowed; /* Show not-allowed cursor */
+    opacity: 0.65; /* Make it appear faded */
+  }
+  
+  /* Additional Variants */
+  
+  /* Secondary Button */
+  button.secondary {
+    background-color: #6c757d; /* Secondary color */
+    color: #ffffff;
+  }
+  
+  button.secondary:hover {
+    background-color: #5a6268; /* Darker shade */
+  }
+  
+  /* Success Button */
+  button.success {
+    background-color: #28a745; /* Green for success */
+    color: #ffffff;
+  }
+  
+  button.success:hover {
+    background-color: #218838; /* Darker green */
+  }
+  
+  /* Danger Button */
+  button.danger {
+    background-color: #dc3545; /* Red for danger */
+    color: #ffffff;
+  }
+  
+  button.danger:hover {
+    background-color: #c82333; /* Darker red */
+  }
+  
+  /* Warning Button */
+  button.warning {
+    background-color: #ffc107; /* Yellow for warning */
+    color: #212529; /* Dark text for contrast */
+  }
+  
+  button.warning:hover {
+    background-color: #e0a800; /* Darker yellow */
+  }
+  

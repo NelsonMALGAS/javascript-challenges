@@ -1,0 +1,58 @@
+/* General container styling */
+.posts-container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 12px; /* Smooth corners */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center-align content */
+}
+
+/* Title styling */
+.posts-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333; /* Dark text */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Remove default list styling */
+#postsList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Post-item styling */
+.post-item {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 15px; /* Space between posts */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+}
+
+/* Hover effect */
+.post-item:hover {
+    transform: scale(1.03); /* Slight enlargement */
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+}
+
+/* Post title styling */
+.post-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 8px; /* Space below the title */
+}
+
+/* Post content styling */
+.post-content {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.6; /* Improve readability */
+}
